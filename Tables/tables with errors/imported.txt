@@ -1,0 +1,5 @@
+create table imported
+(import_id varchar2(20),
+year_of_import varchar2(20),
+country_of_import varchar2(20),
+vehicle_id varchar2(20))

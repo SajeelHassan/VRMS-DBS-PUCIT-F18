@@ -1,0 +1,1004 @@
+		body {
+                margin: 0 auto;
+                padding: 0;
+                font-family: Helvetica, Arial, sans-serif;
+            }
+		.menu-bar-bkg {
+                width:100%;
+                margin:0 auto;
+                height: 100px;
+				background-color: #46413b;
+            }
+		.menu-bar{
+				width:1000px;
+				height: 100px;
+				margin:0 auto;
+
+}
+		.menu-buttons{
+				padding: 0;
+				margin:0 auto;
+				float:right;
+				margin-top:40px;
+		}
+		.menu-buttons a{
+			display: block;
+			font-weight:bold;
+			font-size:150%;
+			color: white;
+			text-align: center;
+			padding: 10px 10px;
+			text-decoration: none;
+			float:left;
+		}
+		.menu-buttons a:hover{
+			background-color:#bebab4;
+			color:black;
+		}
+		.logo {
+			font-size:300%;
+			font-weight:bold;
+			padding:0;
+			margin-top:25;
+			float:left;
+		}
+		.logo a {
+			text-decoration:none;
+			color:white;;
+		}
+		.clear{
+			clear:both;
+		}
+		.home-img {
+				width:1000px;
+				margin:0 auto;
+				align:centre;
+				position:relative;
+				top:-35px;
+			}
+		#footer-container {
+				width:100%;
+                margin:0 auto;
+                height: 300px;
+				background-color: #46413b;
+		}
+		#footer {
+				width:1000px;
+				height: 100px;
+
+				margin:0 auto;
+		}
+		#contact-info {
+			float:right;
+			position:relative;
+			right:100px;
+			top:70px;
+		}
+		#contact-info img {
+			width:50px;
+			height:50px;
+			position:relative;
+			top:15px;
+			left:10px;
+		}
+		#loc p,#phone p, #email p{
+		font-weight:bold;
+		color:white;
+		position:relative;
+		left:70px;
+		top:-50px;
+		}
+		#phone{
+			position:relative;
+			top:-60px;
+		}
+		#email{
+			position:relative;
+			top:-100px;
+
+		}
+		#foot-logo-menu a{
+			text-decoration:none;
+			color:white;
+
+
+		}
+		#f-logo{
+			font-size:600%;
+			font-weight:bold;
+			padding:0;
+			margin-top:25;
+			float:left;
+			position:relative;
+			top:-60px;
+		}
+		#f-menu a{
+				display:block;
+				padding: 10;
+				margin:0 auto;
+				position:relative;
+				top:160px;
+				right:450px;
+				font-size:120%;
+				float:left;
+			background-color: #0b65a9;
+		}
+		#f-menu a:hover{
+			background-color: black;
+		}
+		#page-size {
+				width:1000px;
+				height: 2000px;
+				margin:0 auto;
+		}
+		#contact-us{
+			text-align:center;
+		}
+		#contact-us h1{
+			font-size:100px;
+			font-weight:bold;
+			text-align:center;
+		}
+		#contact-form{
+			display: inline-block;
+		}
+		#contact-form p {
+			text-align:left;
+			font-size:40px;
+			text-decoration:italic;
+
+		}
+		.txtb{
+			width:800px;
+			height:50px;
+
+			border: 6px solid #bebab4;
+
+		}
+		.txtb:hover{
+			border: 6px solid #46413b;
+
+		}
+		#message{
+			width:800px;
+			height:400px;
+			font-size:20px;
+			border: 6px solid #bebab4;
+			background-color:none;
+		}
+		#submit {
+			display:block;
+			background-color:#0b65a9;
+			font-size:50px;
+			color:white;
+
+		}
+		#contact-form input {
+			font-size:30px;
+
+		}
+		#signup-page h1 {
+
+			display:block;
+			padding: 10;
+			margin: 0 auto;
+			color:white;
+			background-color: #0b65a9;
+			width:270px;
+
+		}
+		#signupform h2 {
+
+			display:block;
+			padding: 10;
+			margin: 10 auto;
+			color:white;
+			background-color: #46413b;
+			width:100px;
+
+		}
+		#signupform {
+
+  	margin: 0 auto;
+
+
+}
+#signupform form {
+	position: relative;
+	left:350px;
+
+}
+#signupform input {
+  margin: 0 auto;
+  min-width: 125px;
+  border: 1px solid #eee;
+  border-bottom: 3px solid;
+  border-radius: 5px;
+  transition: border-color .5s ease-out;
+	height:35px;
+	width: 270px;
+
+}
+#signupform button {
+  margin: 0 auto;
+	height:35px;
+	width: 170px;
+  border: 3px solid #46413b;
+	background-color: #0b65a9;
+  border-radius: 5px;
+	font-weight: bold;
+	font-style: italic;
+	color:white;
+}
+#signupform button:hover {
+	background-color: #46413b;
+
+}
+.signupLogin h2 {
+	display:block;
+	padding: 10;
+	margin: 0 auto;
+	color:white;
+	background-color: #46413b;
+	border-radius: 5px;
+	width:300px;
+}
+.signupLogin a {
+	font-weight: bold;
+
+	text-decoration: none;
+	display:block;
+	padding: 10;
+	margin: 10 auto;
+	color:white;
+	background-color: #46413b;
+	width:45px;
+	border: 3px solid #0b65a9;
+	border-radius: 5px;
+}
+.signupLogin a:hover {
+background-color: #0b65a9;
+
+}
+.signuperror {
+	margin:0 auto;
+	position:relative;
+	left:350px;
+	color:red;
+	display:block;
+}
+.success {
+	margin:0 auto;
+	position:relative;
+	left:390px;
+	color:Green;
+	display:block;
+	font-weight: bold;
+	font-style: italic;
+
+}
+#login_form h1 {
+
+	display:block;
+	padding: 10;
+	margin: 0 auto;
+	color:white;
+	background-color: #0b65a9;
+	width:350px;
+	text-align: center;
+
+}
+#login_form {
+
+margin: 0 auto;
+padding:10px;
+
+
+}
+#login_form form {
+position: relative;
+left:350px;
+
+}
+#login_form input {
+margin: 0 auto;
+min-width: 125px;
+border: 1px solid #eee;
+border-bottom:3px solid;
+border-radius: 5px;
+transition: border-color .5s ease-out;
+height:35px;
+width: 270px;
+
+}
+#login_form button {
+margin: 0 auto;
+height:35px;
+width: 170px;
+border: 3px solid #46413b;
+background-color: #0b65a9;
+border-radius: 5px;
+font-weight: bold;
+font-style: italic;
+color:white;
+}
+#login_form button:hover {
+background-color: #46413b;
+
+}
+#login-page h1 {
+
+	display:block;
+	padding: 10;
+	margin: 0 auto;
+	color:white;
+	background-color: #0b65a9;
+	width:350px;
+	text-align: center;
+
+}
+.loginSignup h2 {
+	display:block;
+	padding: 10;
+	margin: 0 auto;
+	color:white;
+	background-color: #46413b;
+	border-radius: 5px;
+	text-align: center;
+	width:230px;
+}
+.loginSignup a {
+	font-weight: bold;
+	text-decoration: none;
+	display:block;
+	padding: 10;
+	margin: 10 auto;
+	color:white;
+	background-color: #46413b;
+	width:70px;
+	border: 3px solid #0b65a9;
+	border-radius: 5px;
+}
+.loginSignup a:hover {
+background-color: #0b65a9;
+
+}
+.loginerror {
+	margin:0 auto;
+	color:red;
+	display:block;
+	position:relative;
+	left:370px;
+	top:8px;
+}
+
+#accountOptions{
+	width:180px;
+}
+#accountOptions a{
+		text-align: center;
+		color:WHITE;
+		text-decoration: none;
+		font-weight: bold;
+		padding: 10;
+		margin:0 auto;
+		font-size:80%;
+		width:180px;
+		float:left;
+	background-color: #0b65a9;
+}
+#accountOptions a:hover{
+	background-color: black;
+}
+#accountOptions a:active{
+	background-color: black;
+}
+.account_area {
+	float:left;
+	margin:0 auto;
+}
+#accountOptions p{
+		text-align: center;
+		color:WHITE;
+		text-decoration: none;
+		font-weight: bold;
+		padding: 10;
+		margin:0 auto;
+		width:180px;
+		font-size:80%;
+		float:left;
+		background-color: #46413b;
+}
+#account_main{
+	padding:0;
+	margin:0 auto;
+	width:800px;
+	position:relative;
+	left:120px;
+	top:-165px;
+}
+#account_main h2 {
+	background-color: #0b65a9;
+	color:white;
+	width:170px;
+	height:40px;;
+	margin:10 auto;
+	padding-top: 10px;
+	text-align: center;
+}
+#user_status {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+#user_status td, #user_status th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#user_status tr:hover
+{
+	background-color: #f2f2f2;
+}
+
+#user_status tr:hover {
+	background-color: #ddd;
+}
+
+#user_status th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: black;
+  color: white;
+}
+#accountOptions form{
+		text-align: center;
+		color:WHITE;
+		padding: 10;
+		margin:0 auto;
+		width:180px;
+		font-size:80%;
+		float:left;
+		background-color: #46413b;
+}
+#accountOptions form:hover{
+		background-color: black;
+}
+#accountOptions button{
+		text-align: center;
+		color:WHITE;
+		text-decoration: none;
+		border-style: none;
+		font-weight: bold;
+		padding: 10;
+		margin:0 auto;
+		width:180px;
+		font-size:18px;
+		float:left;
+		background-color: #46413b;
+}
+#accountOptions button:hover{
+background-color: red;
+}
+#form_section{
+	margin: 0 auto;
+
+	width:58%;
+	height:30px;
+}
+#form_section a{
+
+	text-align: center;
+	color:WHITE;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 10;
+	margin:0 auto;
+	font-size:80%;
+	width:180px;
+background-color: #0b65a9;
+}
+#form_section a:active{
+	background-color: black;
+}
+#personal_details_form {
+	width:500px;
+	margin:0 auto;
+	text-align: left;
+	width:400px;
+}
+#personal_details_form input {
+	margin: 0 auto;
+	min-width: 125px;
+
+	border: 1px solid;
+	border-radius: 5px;
+	height:35px;
+	width: 400px;
+	margin:10;
+	margin auto 0;
+	width:400px;
+}
+#personal_details_form button {
+	text-align: center;
+	color:WHITE;
+	text-decoration: none;
+	border-style: none;
+	font-weight: bold;
+	border: 2px solid black;
+	width:auto;
+	height:30px;
+	margin:0 auto;
+	font-size:18px;
+	background-color: #289b09;
+	position:relative;
+	float:right;
+}
+
+#vehicle_Details_form {
+	width:500px;
+	margin:0 auto;
+	text-align: left;
+	width:400px;
+}
+#vehicle_Details_form input {
+	margin: 0 auto;
+	min-width: 125px;
+
+	border: 1px solid;
+	border-radius: 5px;
+	height:35px;
+	width: 400px;
+	margin:10;
+	margin auto 0;
+	width:400px;
+}
+#vehicle_Details_form button {
+	text-align: center;
+	color:WHITE;
+	text-decoration: none;
+	border-style: none;
+	font-weight: bold;
+	border: 2px solid black;
+	width:auto;
+	height:30px;
+	margin:0 auto;
+	font-size:18px;
+	background-color: #289b09;
+	position:relative;
+	float:right;
+}
+#vehicle_Details_form a{
+	text-align: center;
+	color:WHITE;
+	text-decoration: none;
+	border-style: none;
+	border: 2px solid black;
+	width:100px;
+	height:30px;
+	padding:2.8px;
+	margin:0 auto;
+	font-size:18px;
+	background-color: #0b65a9;
+	position:relative;
+	top:7px;
+	left:200px;
+}
+#vehicle_Details_form a:hover{
+	background-color: black;
+}
+
+
+#tax_Details_form {
+	width:500px;
+	margin:0 auto;
+	text-align: left;
+	width:400px;
+	margin-top: 30px;
+}
+#tax_Details_form input {
+	margin: 0 auto;
+	min-width: 125px;
+
+	border: 1px solid;
+	border-radius: 5px;
+	height:35px;
+	width: 400px;
+	margin:10;
+	margin auto 0;
+	width:400px;
+}
+#tax_Details_form button {
+	text-align: center;
+	color:WHITE;
+	text-decoration: none;
+	border-style: none;
+	font-weight: bold;
+	border: 2px solid black;
+	width:auto;
+	height:30px;
+	margin:0 auto;
+	font-size:18px;
+	background-color: #289b09;
+	position:relative;
+	float:right;
+}
+#tax_Details_form select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#tax_Details_form a{
+	text-align: center;
+	color:WHITE;
+	text-decoration: none;
+	border-style: none;
+	border: 2px solid black;
+	width:100px;
+	height:30px;
+	padding:2.8px;
+	margin:0 auto;
+	font-size:18px;
+	background-color: #0b65a9;
+	position:relative;
+	top:7px;
+	left:200px;
+}
+#tax_Details_form a:hover{
+	background-color: black;
+}
+
+#finel_step_form {
+	width:500px;
+	margin:0 auto;
+	text-align: left;
+	width:400px;
+	margin-top: 30px;
+}
+#finel_step_form input {
+	margin: 0 auto;
+	min-width: 125px;
+
+	border: 1px solid;
+	border-radius: 5px;
+	height:35px;
+	width: 400px;
+	margin:10;
+	margin auto 0;
+	width:400px;
+}
+#finel_step_form button {
+	text-align: center;
+	color:WHITE;
+	text-decoration: none;
+	border-style: none;
+	font-weight: bold;
+	border: 2px solid black;
+	width:auto;
+	height:30px;
+	margin:0 auto;
+	font-size:18px;
+	background-color: #289b09;
+	position:relative;
+	float:right;
+}
+#finel_step_form select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#finel_step_form a{
+	text-align: center;
+	color:WHITE;
+	text-decoration: none;
+	border-style: none;
+	border: 2px solid black;
+	width:100px;
+	height:30px;
+	padding:2.8px;
+	margin:0 auto;
+	font-size:18px;
+	background-color: #0b65a9;
+	position:relative;
+	top:7px;
+	left:200px;
+}
+#finel_step_form a:hover{
+	background-color: black;
+}
+#finel_step_form button:hover{
+	background-color: black;
+}
+#pwdForm input {
+font-family:Arial;
+font-size:14px;
+}
+#pwdForm label{
+font-family:Arial;
+font-size:14px;
+color:#999999;
+}
+#pwdForm .tblSaveForm {
+border-top:2px #999999 solid;
+background-color: #f8f8f8;
+}
+#pwdForm .tableheader {
+background-color: #fedc4d;
+}
+#pwdForm .btnSubmit {
+background-color:#fd9512;
+padding:5px;
+border-color:#FF6600;
+border-radius:4px;
+color:white;
+}
+#pwdForm .message {
+color: #FF0000;
+text-align: center;
+width: 100%;
+}
+#pwdForm .txtField {
+padding: 5px;
+border:#fedc4d 1px solid;
+border-radius:4px;
+}
+#pwdForm .required {
+color: #FF0000;
+font-size:11px;
+font-weight:italic;
+padding-left:10px;
+}
+.blue th {
+	background-color:#0b65a9;
+}
+.blue {
+	background-color:#0b65a9;
+}
+.formerror {
+	margin:0 auto;
+	color:red;
+	display:block;
+	position:relative;
+	left:100px;
+	top:8px;
+}
+#adminbarbkg {
+						width:100%;
+						margin:0 auto;
+						height: 100px;
+		background-color: black;
+				}
+#adminlogobar{
+		width:1000px;
+		height: 100px;
+		margin:0 auto;
+
+}
+#admin_page h2,h1{
+	display:block;
+	padding: 10;
+	color:white;
+	background-color: black;
+	width:350px;
+	text-align: center;
+}
+#admin_page h1 {
+	margin:0 15%;
+	background-color:#0b65a9;
+}
+#adminlogin_box {
+
+	width:400px;
+	height: 500px;
+	margin:100px auto;
+}
+#adminlogin_box h2 {
+	margin:40 auto;
+}
+#adminlogin_form {
+
+margin: 0 auto;
+padding:10px;
+}
+#adminlogin_form form{
+		width:280px;
+
+		margin:0 auto;
+}
+#adminlogin_form label{
+		font-size: 28;
+		font-style: italic;
+}
+#adminlogin_form input {
+font-size: 20px;
+width: 50px;
+border: 5px solid #eee;
+border-bottom:  3px solid;
+border-radius: 5px;
+transition: border-color 3s ease-out;
+height:45px;
+width: 270px;
+
+}
+#adminlogin_form button {
+
+height:50px;
+width: 200px;
+margin: 60 15%;
+border: 3px solid #46413b;
+background-color: black;
+border-radius: 3px;
+font-weight: bold;
+font-style: italic;
+font-size: 25px;
+color:white;
+}
+#adminlogin_form button:hover {
+background-color: white;
+color:black;
+}
+
+#adminlogo a{
+	font-size: 70px;
+	text-decoration: none;
+	color:white;
+	font-weight: bold;
+	margin:0 15%;
+
+
+}
+#admin_accountOptions{
+	width:180px;
+	margin-top: 30px;
+}
+#admin_accountOptions a{
+		text-align: center;
+		color:WHITE;
+		text-decoration: none;
+		font-weight: bold;
+		padding: 10;
+		margin:0 auto;
+		font-size:80%;
+		width:180px;
+		float:left;
+	background-color: #0b65a9;
+}
+#admin_accountOptions a:hover{
+	background-color: black;
+}
+#admin_accountOptions a:active{
+	background-color: black;
+}
+
+#admin_accountOptions p{
+		text-align: center;
+		color:WHITE;
+		text-decoration: none;
+		font-weight: bold;
+		padding: 10;
+		margin:0 auto;
+		width:180px;
+		font-size:80%;
+		float:left;
+		background-color: black;
+}
+#admin_accountOptions form{
+		text-align: center;
+		color:WHITE;
+		padding: 10;
+		margin:0 auto;
+		width:180px;
+		font-size:80%;
+		float:left;
+		background-color: black;
+}
+#admin_accountOptions form:hover{
+		background-color: black;
+}
+#admin_accountOptions button{
+		text-align: center;
+		color:WHITE;
+		text-decoration: none;
+		border-style: none;
+		font-weight: bold;
+		padding: 10;
+		margin:0 auto;
+		width:180px;
+		font-size:18px;
+		float:left;
+		background-color: black;
+}
+#admin_accountOptions button:hover{
+background-color: red;
+}
+#admin_user_status {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+	min-width: 70%;
+}
+
+#admin_user_status td {
+  border: 2px solid #ddd;
+  padding: 8px;
+
+}
+#user_status th {
+  border: 6px solid #ddd;
+  padding: 8px;
+
+
+}
+
+#admin_user_status tr:hover
+{
+	background-color: #f2f2f2;
+}
+
+#admin_user_status tr:hover {
+	background-color: #ddd;
+}
+
+#admin_user_status th {
+
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: black;
+  color: white;
+
+}
+.userdetail_back {
+	display:block;
+
+	padding:10px;
+	width:40px;
+
+}
+.userdetail_back button{
+	display:block;
+background-color: white;
+	width:70px;
+	height:40px;
+	font-size: 20px;
+	font-weight: bold;
+	position: relative;
+	left:150px;
+	top:7px;
+
+}
+.userdetail_back button:hover{
+			background-color: black;
+			color:white;
+}
+
+.userdetail_update {
+	display:block;
+
+	padding:10px;
+	width:40px;
+
+}
+.userdetail_update button{
+	display:block;
+background-color: white;
+	width:200px;
+	height:40px;
+	font-size: 20px;
+	font-weight: bold;
+	position: relative;
+	left:250px;
+	top:-70px;
+
+}
+.userdetail_update button:hover{
+			background-color: black;
+			color:white;
+}

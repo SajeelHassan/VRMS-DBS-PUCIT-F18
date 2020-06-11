@@ -1,0 +1,84 @@
+--mysql Tables
+CREATE TABLE  REGISTER 
+   (reg_id int(10), 
+	date_reg DATETIME, 
+	city VARCHAR(25), 
+	area_code int(10), 
+	laden_weight int(14), 
+	vehicle_id int(10)
+   );
+   
+create table Ownerdetails
+(
+cnic int(20),
+full_name varchar(25),
+f_h_name varchar(25),
+field varchar(30),
+address varchar(90),
+vehicle_id int(10)
+);
+CREATE TABLE  VEHICLEDETAILS 
+   (	VEHICLE_ID int(10), 
+	CHASIS_NUM int(14), 
+	ENGINE_NUM int(14), 
+	LICENSE_NUM VARCHAR(14), 
+	MAKE VARCHAR(14), 
+	MODEL VARCHAR(14), 
+	COLOR VARCHAR(10), 
+	HP int(6), 
+	YEAR int(4), 
+	SEATS int(2), 
+	REG_ID int(10)
+   );
+create table nonfiler
+(cnic int(20),
+reg_id int(10),
+token_tax_amount int(10)
+);
+create table imported
+(import_id int(10),
+year_of_import int(4),
+country_of_import varchar(20),
+vehicle_id int(10));
+create table exempted
+(
+govt_inst varchar(50),
+welfare_org varchar(50),
+reg_id int(10),
+ei_d int(10));
+create table filer
+(ntn_number int(25),
+reg_id int(10),
+token_tax_amount int(6)
+);
+create table previous_owner 
+(cnic varchar(20),
+po_name varchar(20),
+f_h_name varchar(20),
+vehicle_id int(10)
+);
+create table n_user
+(login_ID int(10),
+cnic int(30));
+create table bikes
+(
+vehicle_id  int(10),
+engine_type varchar(25),
+body_type varchar(25),
+import_id int(10)
+);
+create table admin
+(login_ID int(10),
+admin_pin int(4)); 
+create table cars
+(
+vehicle_id  int(10),
+engine_type varchar(25),
+body_type varchar(25),
+import_ID int(10),
+carID int(10)
+);
+create table login 
+(loginID int(10),
+login_username varchar(20),
+login_password varchar(20));

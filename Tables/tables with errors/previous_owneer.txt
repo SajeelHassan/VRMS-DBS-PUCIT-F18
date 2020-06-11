@@ -1,0 +1,6 @@
+create table previous_owner 
+(cnic varchar2(20),
+name varchar2(20),
+f_h_name varchar2(20),
+vehicle_id varchar2(20)
+)

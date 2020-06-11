@@ -1,0 +1,5 @@
+create table filer
+(ntn_number number(25),
+reg_id number(10),
+token_tax_amount number(6)
+)

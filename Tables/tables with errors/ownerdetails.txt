@@ -1,0 +1,9 @@
+create table ownerdetails
+(
+cnic number(20),
+full_name varchar2(25),
+f/h_name varchar2(25),
+field varchar2(30),
+address varchar2(90),
+vehicle_id varchar2(10)
+);

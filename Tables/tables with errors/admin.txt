@@ -1,0 +1,3 @@
+create table admin
+(login_ID varchar(10),
+admin_pin int(4)); 

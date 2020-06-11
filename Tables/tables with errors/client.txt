@@ -1,0 +1,3 @@
+create table client
+(login_ID varchar(20),
+cnic number(30))

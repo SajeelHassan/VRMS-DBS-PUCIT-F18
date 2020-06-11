@@ -1,0 +1,4 @@
+create table nonfiler
+(cnic number(20),
+reg_id number(10),
+token_tax_amount number(10))

@@ -1,0 +1,7 @@
+create table bikes
+(
+vehicle_id  int(10),
+engine_type varchar(25),
+body_type varchar(25),
+import_id int(10)
+);

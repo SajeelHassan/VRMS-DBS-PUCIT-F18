@@ -1,0 +1,7 @@
+create table exempted
+(
+govt_inst varchar2(50),
+welfare_org varchar2(50),
+reg_id number(10),
+ei_d number(10))
+

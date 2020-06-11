@@ -1,0 +1,8 @@
+create table cars
+(
+vehicle_id  number(10),
+engine_type varchar2(15),
+body_type varchar2(10),
+import_id number(10),
+carID number(10)
+);
